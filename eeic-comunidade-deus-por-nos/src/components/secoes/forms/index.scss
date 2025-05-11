@@ -1,0 +1,51 @@
+.pagina-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    padding-bottom: 40px;
+
+    h1 {
+      color: #1D3A5E;
+      text-align: center;
+  }
+    p {
+      text-align: center;
+      margin-top: 0;
+      font-size: 120%;
+  }
+
+    form {
+      background-color: #1D3A5E;
+      border-radius: 15px;
+      padding: 40px;
+  
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      label {
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 1rem;
+      }
+  
+      input {
+        padding: 12px 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+      }
+
+      button {
+        background-color: #ff7f11;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        padding: 12px;
+      }
+    }
+  }
+  
