@@ -16,15 +16,6 @@ export default function Footer() {
                         <p>{item.ctt}</p>
                     </div>
                 })}
-
-                <div className='redes'>
-                    {elements.map((item, index) => (
-                        <div key={index}>
-                            <img src={item.img} alt='' />
-                            <p>{item.ctt}</p>
-                        </div>
-                    ))}
-                </div>
             </div>
 
         </div>
