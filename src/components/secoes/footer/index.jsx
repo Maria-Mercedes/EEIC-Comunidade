@@ -11,8 +11,8 @@ export default function Footer() {
                 <h2>Entre em contato: </h2>
 
                 {elements.map((item, index) => {
-                    <div key={index}>
-                        <img src={item.img} />
+                   return <div key={index}>
+                        <img src={item.img} alt=''/>
                         <p>{item.ctt}</p>
                     </div>
                 })}
@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className='redes'>
                     {elements.map((item, index) => (
                         <div key={index}>
-                            <img src={item.img} />
+                            <img src={item.img} alt='' />
                             <p>{item.ctt}</p>
                         </div>
                     ))}
